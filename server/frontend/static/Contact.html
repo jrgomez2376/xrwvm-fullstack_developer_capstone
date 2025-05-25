@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+    
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <style>
+        /* Additional CSS specific for Contact page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header navbar */
+        nav {
+            background-color: #004080;
+            padding: 1rem 2rem;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #eee;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #0066cc;
+        }
+
+        /* Active link style */
+        nav a.active {
+            background-color: #ff9900;
+            color: #000;
+        }
+
+        /* Contact container */
+        .contact-container {
+            max-width: 700px;
+            background: white;
+            margin: 40px auto;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .contact-container h1 {
+            margin-bottom: 20px;
+            color: #004080;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            margin: 12px 0;
+            color: #333;
+        }
+
+        .contact-info strong {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="Contact.html" class="active">Contact Us</a>
+    </nav>
+
+    <!-- Contact information -->
+    <section class="contact-container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Innovation Drive, Suite 456, Starbase, TX 78521</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@yourcompany.com</p>
+            <p><strong>Business Hours:</strong> Monday - Friday: 9 AM - 6 PM</p>
+            <p><strong>Fax:</strong> (123) 456-7891</p>
+        </div>
+    </section>
+
+</body>
+</html>
